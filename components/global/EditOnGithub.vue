@@ -1,6 +1,6 @@
 <template>
   <a :href="link" target="_blank" rel="noopener">
-    Edit on Github
+    {{ $t('article.github') }}
   </a>
 </template>
 

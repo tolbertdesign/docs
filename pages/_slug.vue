@@ -8,7 +8,7 @@
       </article>
 
       <EditOnGithub :document="doc" />
-      <NuxtLogo />
+      <LangSwitcher />
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
 
     let doc
     try {
-      doc = await $content(slug).fetch()
+      doc = await $content(app.i18n.locale, slug).fetch()
     } catch (e) {
       return error({statusCode: 404, message: 'Page not found'})
     }

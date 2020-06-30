@@ -4,7 +4,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt build && nuxt export",
+    "preserve": "yarn generate",
+    "serve": "nuxt serve"
   },
   "dependencies": {
     "nuxt": "latest"

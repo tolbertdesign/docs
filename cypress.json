@@ -1,0 +1,12 @@
+{
+  "env": {
+    "API_URL": "http://tolbert.test/api"
+  },
+  "baseUrl": "http://docs.tolbert.test:3000",
+  "pluginsFile": "cypress/plugins/index.js",
+  "integrationFolder": "cypress/integration",
+  "viewportWidth": 400,
+  "viewportHeight": 900,
+  "trashAssetsBeforeRuns": true,
+  "numTestsKeptInMemory": 10
+}

@@ -15,23 +15,23 @@
 
 <script>
 export default {
-  name: "PageSlug",
-  middleware({ params, redirect }) {
-    if (params.slug === "index") {
-      redirect("/");
+  name: 'PageSlug',
+  middleware({params, redirect}) {
+    if (params.slug === 'index') {
+      redirect('/')
     }
   },
-  async asyncData({ $content, store, app, params, error }) {
-    const slug = params.slug || "index";
+  async asyncData({$content, store, app, params, error}) {
+    const slug = params.slug || 'index'
 
-    let doc;
+    let doc
     try {
-      doc = await $content(slug).fetch();
+      doc = await $content(slug).fetch()
     } catch (e) {
-      return error({ statusCode: 404, message: "Page not found" });
+      return error({statusCode: 404, message: 'Page not found'})
     }
 
-    return { doc };
+    return {doc}
   },
-};
+}
 </script>

@@ -14,8 +14,8 @@ export default {
   },
   computed: {
     link() {
-      return `https://github.com/tolbertdesign/docs/edit/develop/content${this.document.path}${this.document.extension}`;
+      return `https://github.com/tolbertdesign/docs/edit/develop/content${this.document.path}${this.document.extension}`
     },
   },
-};
+}
 </script>

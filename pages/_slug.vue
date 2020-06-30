@@ -6,6 +6,8 @@
 
         <NuxtContent :document="doc" />
       </article>
+
+      <EditOnGithub :document="doc" />
     </div>
   </div>
 </template>

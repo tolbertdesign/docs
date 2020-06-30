@@ -8,6 +8,7 @@
       </article>
 
       <EditOnGithub :document="doc" />
+      <NuxtLogo />
     </div>
   </div>
 </template>

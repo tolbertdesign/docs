@@ -6,13 +6,18 @@
     "start": "nuxt start",
     "generate": "nuxt build && nuxt export",
     "preserve": "yarn generate",
-    "serve": "nuxt serve"
+    "serve": "nuxt serve",
+    "test": "jest"
   },
   "dependencies": {
     "nuxt": "latest"
   },
   "devDependencies": {
     "@nuxt/content": "^1.4.0",
-    "@nuxtjs/tailwindcss": "^2.0.0"
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
   }
 }

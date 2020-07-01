@@ -1,3 +1,6 @@
 ---
-title: Hola, mundo!
+title: Introducción
+description: Presentamos...
+position: 1
+category: Empezando...
 ---

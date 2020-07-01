@@ -3,8 +3,6 @@ title: Naming Conventions
 category: Style Guide
 ---
 
-## Naming Conventions
-
 We want to standardize our code naming conventions to make code easier to read,
 understand, and to reduce the time spent on naming.
 

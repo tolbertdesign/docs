@@ -1,0 +1,118 @@
+/* .debug * {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+}
+.debug * * {
+  background-color: rgba(0, 255, 0, 0.2) !important;
+}
+.debug * * * {
+  background-color: rgba(0, 0, 255, 0.2) !important;
+}
+.debug * * * * {
+  background-color: rgba(255, 0, 255, 0.2) !important;
+}
+.debug * * * * * {
+  background-color: rgba(0, 255, 255, 0.2) !important;
+}
+.debug * * * * * * {
+  background-color: rgba(255, 255, 0, 0.2) !important;
+}
+
+body.debug { outline: 1px solid #2980b9 !important; }
+.debug article { outline: 1px solid #3498db !important; }
+.debug nav { outline: 1px solid #0088c3 !important; }
+.debug aside { outline: 1px solid #33a0ce !important; }
+.debug section { outline: 1px solid #66b8da !important; }
+.debug header { outline: 1px solid #99cfe7 !important; }
+.debug footer { outline: 1px solid #cce7f3 !important; }
+.debug h1 { outline: 1px solid #162544 !important; }
+.debug h2 { outline: 1px solid #314e6e !important; }
+.debug h3 { outline: 1px solid #3e5e85 !important; }
+.debug h4 { outline: 1px solid #449baf !important; }
+.debug h5 { outline: 1px solid #c7d1cb !important; }
+.debug h6 { outline: 1px solid #4371d0 !important; }
+.debug main { outline: 1px solid #2f4f90 !important; }
+.debug address { outline: 1px solid #1a2c51 !important; }
+.debug div { outline: 1px solid #036cdb !important; }
+.debug p { outline: 1px solid #ac050b !important; }
+.debug hr { outline: 1px solid #ff063f !important; }
+.debug pre { outline: 1px solid #850440 !important; }
+.debug blockquote { outline: 1px solid #f1b8e7 !important; }
+.debug ol { outline: 1px solid #ff050c !important; }
+.debug ul { outline: 1px solid #d90416 !important; }
+.debug li { outline: 1px solid #d90416 !important; }
+.debug dl { outline: 1px solid #fd3427 !important; }
+.debug dt { outline: 1px solid #ff0043 !important; }
+.debug dd { outline: 1px solid #e80174 !important; }
+.debug figure { outline: 1px solid #f0b !important; }
+.debug figcaption { outline: 1px solid #bf0032 !important; }
+.debug table { outline: 1px solid #0c9 !important; }
+.debug caption { outline: 1px solid #37ffc4 !important; }
+.debug thead { outline: 1px solid #98daca !important; }
+.debug tbody { outline: 1px solid #64a7a0 !important; }
+.debug tfoot { outline: 1px solid #22746b !important; }
+.debug tr { outline: 1px solid #86c0b2 !important; }
+.debug th { outline: 1px solid #a1e7d6 !important; }
+.debug td { outline: 1px solid #3f5a54 !important; }
+.debug col { outline: 1px solid #6c9a8f !important; }
+.debug colgroup { outline: 1px solid #6c9a9d !important; }
+.debug button { outline: 1px solid #da8301 !important; }
+.debug datalist { outline: 1px solid #c06000 !important; }
+.debug fieldset { outline: 1px solid #d95100 !important; }
+.debug form { outline: 1px solid #d23600 !important; }
+.debug input { outline: 1px solid #fca600 !important; }
+.debug keygen { outline: 1px solid #b31e00 !important; }
+.debug label { outline: 1px solid #ee8900 !important; }
+.debug legend { outline: 1px solid #de6d00 !important; }
+.debug meter { outline: 1px solid #e8630c !important; }
+.debug optgroup { outline: 1px solid #b33600 !important; }
+.debug option { outline: 1px solid #ff8a00 !important; }
+.debug output { outline: 1px solid #ff9619 !important; }
+.debug progress { outline: 1px solid #e57c00 !important; }
+.debug select { outline: 1px solid #e26e0f !important; }
+.debug textarea { outline: 1px solid #cc5400 !important; }
+.debug details { outline: 1px solid #33848f !important; }
+.debug summary { outline: 1px solid #60a1a6 !important; }
+.debug command { outline: 1px solid #438da1 !important; }
+.debug menu { outline: 1px solid #449da6 !important; }
+.debug del { outline: 1px solid #bf0000 !important; }
+.debug ins { outline: 1px solid #400000 !important; }
+.debug img { outline: 1px solid #22746b !important; }
+.debug iframe { outline: 1px solid #64a7a0 !important; }
+.debug embed { outline: 1px solid #98daca !important; }
+.debug object { outline: 1px solid #0c9 !important; }
+.debug param { outline: 1px solid #37ffc4 !important; }
+.debug video { outline: 1px solid #6ee866 !important; }
+.debug audio { outline: 1px solid #027353 !important; }
+.debug source { outline: 1px solid #012426 !important; }
+.debug canvas { outline: 1px solid #a2f570 !important; }
+.debug track { outline: 1px solid #59a600 !important; }
+.debug map { outline: 1px solid #7be500 !important; }
+.debug area { outline: 1px solid #305900 !important; }
+.debug a { outline: 1px solid #ff62ab !important; }
+.debug em { outline: 1px solid #800b41 !important; }
+.debug strong { outline: 1px solid #ff1583 !important; }
+.debug i { outline: 1px solid #803156 !important; }
+.debug b { outline: 1px solid #cc1169 !important; }
+.debug u { outline: 1px solid #ff0430 !important; }
+.debug s { outline: 1px solid #f805e3 !important; }
+.debug small { outline: 1px solid #d107b2 !important; }
+.debug abbr { outline: 1px solid #4a0263 !important; }
+.debug q { outline: 1px solid #240018 !important; }
+.debug cite { outline: 1px solid #64003c !important; }
+.debug dfn { outline: 1px solid #b4005a !important; }
+.debug sub { outline: 1px solid #dba0c8 !important; }
+.debug sup { outline: 1px solid #cc0256 !important; }
+.debug time { outline: 1px solid #d6606d !important; }
+.debug code { outline: 1px solid #e04251 !important; }
+.debug kbd { outline: 1px solid #5e001f !important; }
+.debug samp { outline: 1px solid #9c0033 !important; }
+.debug var { outline: 1px solid #d90047 !important; }
+.debug mark { outline: 1px solid #ff0053 !important; }
+.debug bdi { outline: 1px solid #bf3668 !important; }
+.debug bdo { outline: 1px solid #6f1400 !important; }
+.debug ruby { outline: 1px solid #ff7b93 !important; }
+.debug rt { outline: 1px solid #ff2f54 !important; }
+.debug rp { outline: 1px solid #803e49 !important; }
+.debug span { outline: 1px solid #cc2643 !important; }
+.debug br { outline: 1px solid #db687d !important; }
+.debug wbr { outline: 1px solid #db175b !important; } */

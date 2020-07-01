@@ -1,3 +1,5 @@
 ---
-title: Hello, world!
+title: Introduction
+position: 1
+category: Getting started
 ---
